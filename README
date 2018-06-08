@@ -1,0 +1,39 @@
+Joel Saindon
+CS 4760, Proj 5
+Memory Management
+
+Files that should be in this directory:
+	-main.c
+	-oss.c
+	-user.c
+	-info.h
+	-Makefile
+	-hidden .git directory
+	-this README
+	-test.out
+
+Getting started: Type the command: make proj5
+	Files should compile and you should be left with 3 executables in the directory: proj4, oss, and user.
+
+Running proj5: the only valid options for this project are:
+	-s w/arg
+	-h (for help text)
+	no args will use defaults that are hardcoded into program
+
+Things not implemented in this project:
+	-Logging, started but not working
+	-Starting more processes on after other children have finished executing
+	-Timeout on alarm/signal handling to clean up memory
+	-Message passing
+	-Deadlock calculation
+	
+Struggles:
+	I burned so much of my time just trying to get the shared memory to allocate and deallocate in the correct way,
+	I didn't end up being able to get through even some of the first steps.
+	Definitely chased a lot of pointer errors
+	I did get what I consider a good base in info.h to use for PCBs and RCBs
+	
+Final Words:
+	It appears the little bits and pieces (some of them a little bigger) missing from each project is starting to finally catch up with me.
+	I'm struggling to get to the point where I can focus on the actual current project and wasting my time backtracking to try and get items from previous projects working, as they are essential to the current projects.
+	In all honesty, the amount of time required to do these projects well really makes me wonder why this class is a 3 credit class. I've never experienced a class of this "caliber" I guess. Even at the end of the semester, feeling pretty outclassed by the project load.
